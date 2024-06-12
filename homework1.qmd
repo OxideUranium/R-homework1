@@ -1,0 +1,46 @@
+---
+title: "Homework1"
+author: "OuyangJingzhou22212561"
+date: today
+format: 
+  pdf:
+    number-sections: true
+editor: visual
+---
+
+# Plot
+
+```{r}
+#| echo: false
+#| fig-width: 12
+#| fig-height: 8
+library(FlyingR)
+data("birds", package = "FlyingR")
+
+plot(birds$Empty.mass, birds$Wing.area,    # Using empty.mass and Wing.area to plot
+     main = "Scatterplot for Birds: Empty Mass vs. Wing Area", # Topic
+     xlab = "Empty Mass(kg)",    # x axis label
+     ylab = "Wing Area(m2)",     # y axis label
+     col = "blue",    #  blue data points 
+     cex = 3,     # make data points bigger 
+    )
+grid() # adding a grid is to show that the grid is not square
+```
+
+\newpage
+
+# Explanation
+
+The above plot shows the relation between `Empty Mass` $kg$ and `Wing Area` $m^2$ of birds. As can be seen from the plot, there are roughly two types of birds: large birds and small birds:\
+
+-   [Small birds]{style="font-weight:bold; color:green;"}: Most birds have a *small* weight and wing area, they scatter near the origin, their wing area does not exceed $0.1 m^2$ and their weight does not exceed $1 kg$\
+
+-   [Large birds]{style="font-weight:bold; color:orange;"}: A small number of birds are very *large*, ranging from $2kg$ to $12kg$, and their wing area gradually increases, up to $1.4m^2$\
+
+------------------------------------------------------------------------
+
+In addition, we can also see that there is a `proportional relationship` here. Obviously, the heavier the bird, the larger the wing area, which is consistent with daily cognition. And most birds are small, only a small number of birds are large.  
+
+# Source
+
+The documentation for the R dataset `FlyingR`: [Source](https://cran.r-project.org/package=FlyingR)
