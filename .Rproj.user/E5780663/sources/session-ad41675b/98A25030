@@ -1,0 +1,31 @@
+{
+    "id": "98A25030",
+    "path": "C:/mod/University/ucd1s/R/homework1/R-homework1/homework1.qmd",
+    "project_path": "homework1.qmd",
+    "type": "quarto_markdown",
+    "hash": "1177772966",
+    "contents": "",
+    "dirty": false,
+    "created": 1718222621348.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "44,0",
+        "scrollLine": "36",
+        "rmdVisualModeLocation": "662:533"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1718222819,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1718222819507,
+    "read_only": false,
+    "read_only_alternatives": []
+}
